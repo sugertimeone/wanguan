@@ -1,0 +1,23 @@
+--create Gateway\Gateway.lib
+gateway\stm32f4xx_hal_msp.o
+gateway\main.o
+gateway\stm32f4xx_it.o
+gateway\sim868.o
+gateway\stm32f4xx_hal_tim_ex.o
+gateway\stm32f4xx_hal_flash.o
+gateway\stm32f4xx_hal_rcc.o
+gateway\stm32f4xx_hal.o
+gateway\stm32f4xx_hal_pwr_ex.o
+gateway\stm32f4xx_hal_cortex.o
+gateway\stm32f4xx_hal_pwr.o
+gateway\stm32f4xx_hal_flash_ex.o
+gateway\stm32f4xx_hal_dma_ex.o
+gateway\stm32f4xx_hal_gpio.o
+gateway\stm32f4xx_hal_flash_ramfunc.o
+gateway\stm32f4xx_hal_dma.o
+gateway\stm32f4xx_hal_uart.o
+gateway\stm32f4xx_hal_rcc_ex.o
+gateway\stm32f4xx_hal_can.o
+gateway\stm32f4xx_hal_tim.o
+gateway\startup_stm32f407xx.o
+gateway\system_stm32f4xx.o

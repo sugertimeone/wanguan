@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: pengking Microsoft, Microsoft, LIC=TA3WF-6VAHZ-VH387-EH8UB-PS142-3PYLW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  E:\MDK keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\Thinkpad\Desktop\Gateway 十分钟_立即报警_POST版本_V1.02标准小屏_上传米其林服务器版本\V1.02\MDK-ARM\Gateway.uvprojx
+Project File Date:  10/14/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'E:\MDK keil5\ARM\ARMCC\Bin'
+Build target 'Gateway'
+compiling main.c...
+../Src/main.c(372): warning:  #177-D: variable "TPMS_count" was declared but never referenced
+  		static uint8_t TPMS_count=0;
+../Src/main.c(588): warning:  #177-D: variable "a" was declared but never referenced
+  	char a[200]="&imei=18610312360\r\n";
+../Src/main.c(346): warning:  #177-D: function "CAN1_Filter_ODO_Init" was declared but never referenced
+  static void CAN1_Filter_ODO_Init(void)
+../Src/main.c(477): warning:  #177-D: function "CAN1_Tx" was declared but never referenced
+  static void CAN1_Tx(uint8_t* CanTxBuf)
+../Src/main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=17004 RO-data=884 RW-data=80 ZI-data=3432  
+"Gateway\Gateway.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Thinkpad\Desktop\Gateway 十分钟_立即报警_POST版本_V1.02标准小屏_上传米其林服务器版本\V1.02\MDK-ARM\RTE
+  E:\MDK keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  E:\MDK keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
